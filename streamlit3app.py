@@ -317,8 +317,7 @@ st.markdown("I've created a **Streamlit application** that mirrors the functiona
 st.write("Here's how this application works:") 
 
 # INI CARA YANG BENAR DAN AMAN
-st.markdown("""
-* **User Interface:** The app features a clean and modern design using Streamlit's native components, organized with clear markdown headers for easy navigation.
+st.markdown("""* **User Interface:** The app features a clean and modern design using Streamlit's native components, organized with clear markdown headers for easy navigation.""")
 * **CSV Upload:** You can conveniently upload your CSV files containing the specified columns.
 * **Data Cleaning:** All data cleaning steps, including date conversion, filling missing engagement values, and normalizing column names, are efficiently handled using **Pandas**.
 * **Interactive Visualizations (Plotly):** The dashboard generates five interactive charts to help you analyze your media data:
