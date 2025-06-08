@@ -1,0 +1,14 @@
+# dependensi
+/node_modules
+
+# folder hasil build
+/build
+
+# file log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File rahasia
+# INI BAGIAN YANG KAMU TAMBAHKAN
+.env
