@@ -295,7 +295,8 @@ if st.session_state.cleaned_df is not None and not st.session_state.cleaned_df.e
 st.markdown("---")
 st.markdown("<p style='text-align: center; color: gray;'>&copy; 2023 Media Intelligence Dashboard. Powered by Gemini.</p>", unsafe_allow_html=True)
 ```
-I've created a **Streamlit application** that mirrors the functionality of the previous React app, designed for a Python environment.
+# Menggunakan tanda kutip ganda (") sebagai pembungkus
+st.markdown("I've created a **Streamlit application** that mirrors the functionality of the previous React app, designed for a Python environment.")
 
 Here's how this application works:
 
