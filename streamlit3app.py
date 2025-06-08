@@ -298,7 +298,8 @@ st.markdown("<p style='text-align: center; color: gray;'>&copy; 2023 Media Intel
 # Menggunakan tanda kutip ganda (") sebagai pembungkus
 st.markdown("I've created a **Streamlit application** that mirrors the functionality of the previous React app, designed for a Python environment.")
 
-Here's how this application works:
+# Ubah menjadi menggunakan kutip ganda
+st.write("Here's how this application works:") 
 
 * **User Interface:** The app features a clean and modern design using Streamlit's native components, organized with clear markdown headers for easy navigation.
 * **CSV Upload:** You can conveniently upload your CSV files containing the specified columns.
