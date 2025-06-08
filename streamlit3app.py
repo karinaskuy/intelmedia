@@ -301,6 +301,8 @@ st.markdown("I've created a **Streamlit application** that mirrors the functiona
 # Ubah menjadi menggunakan kutip ganda
 st.write("Here's how this application works:") 
 
+# INI CARA YANG BENAR DAN AMAN
+st.markdown("""
 * **User Interface:** The app features a clean and modern design using Streamlit's native components, organized with clear markdown headers for easy navigation.
 * **CSV Upload:** You can conveniently upload your CSV files containing the specified columns.
 * **Data Cleaning:** All data cleaning steps, including date conversion, filling missing engagement values, and normalizing column names, are efficiently handled using **Pandas**.
@@ -318,7 +320,8 @@ The persistent **"401 Unauthorized" errors** you encountered previously indicate
 
 **To resolve the API errors and run this application successfully, you **must** set an environment variable named `GEMINI_API_KEY` in your Canvas environment settings with your actual Gemini API Key.**
 
-Once your API key is configured, simply upload your CSV, and the dashboard will visualize your data and provide valuable insigh
+Once your API key is configured, simply upload your CSV, and the dashboard will visualize your data and provide valuable insights.
+""")
 
 // ... di dalam file App.js
 
