@@ -294,7 +294,22 @@ if st.session_state.cleaned_df is not None and not st.session_state.cleaned_df.e
 # --- Footer ---
 st.markdown("---")
 st.markdown("<p style='text-align: center; color: gray;'>&copy; 2023 Media Intelligence Dashboard. Powered by Gemini.</p>", unsafe_allow_html=True)
-```
+
+st.markdown("""
+Berikut adalah contoh blok kode JavaScript:
+```javascript
+// ... di dalam file App.js
+
+const generateInsights = useCallback(async (chartName, dataToAnalyze, setStateCallback) => {
+  // ... kode lainnya
+  try {
+    const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
+    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+  } catch (err) {
+    // ...
+  }
+}, []);
+
 # Menggunakan tanda kutip ganda (") sebagai pembungkus
 st.markdown("I've created a **Streamlit application** that mirrors the functionality of the previous React app, designed for a Python environment.")
 
