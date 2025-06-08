@@ -337,11 +337,10 @@ The persistent **"401 Unauthorized" errors** you encountered previously indicate
 Once your API key is configured, simply upload your CSV, and the dashboard will visualize your data and provide valuable insights.
 """)
 
+st.code("""
 const generateInsights = useCallback(async (chartName, dataToAnalyze, setStateCallback) => {
-  // ... kode lainnya
+  // ... di dalam file App.js
   try {
-    // ... kode lainnya
-    
     // INILAH PERUBAHAN DARI LANGKAH 1
     const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
 
@@ -353,3 +352,4 @@ const generateInsights = useCallback(async (chartName, dataToAnalyze, setStateCa
     // ...
   }
 }, []);
+""", language='javascript')
