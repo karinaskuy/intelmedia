@@ -337,8 +337,6 @@ The persistent **"401 Unauthorized" errors** you encountered previously indicate
 Once your API key is configured, simply upload your CSV, and the dashboard will visualize your data and provide valuable insights.
 """)
 
-// ... di dalam file App.js
-
 const generateInsights = useCallback(async (chartName, dataToAnalyze, setStateCallback) => {
   // ... kode lainnya
   try {
